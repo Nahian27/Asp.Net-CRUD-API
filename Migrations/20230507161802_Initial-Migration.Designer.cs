@@ -12,8 +12,8 @@ using WebAPI.Data;
 namespace WebAPI.Migrations
 {
     [DbContext(typeof(EmployeeCrudContext))]
-    [Migration("20230507160316_initial-migration")]
-    partial class initialmigration
+    [Migration("20230507161802_Initial-Migration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
